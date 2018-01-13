@@ -7,8 +7,8 @@ namespace BinarySearch
         static void Main(string[] args)
         {
             int[] sortedArray = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            //int[] secondBiggestNumberArray = new int[] { 1, 5, 2, 6, 1, 9, 2 };
-            int[] secondBiggestNumberArray = new int[] { 9, 9, 9, 9, 9, 9, 9, 9 };
+            int[] secondBiggestNumberArray = new int[] { 1, 5, 2, 6, 1, 9, 2 };
+            //int[] secondBiggestNumberArray = new int[] { 9, 9, 9, 9, 9, 9, 9, 9 };
             int key = 7;
 
             // Binary search
@@ -21,7 +21,12 @@ namespace BinarySearch
 
             int secondLargestNumberSeach = SecondLargestNumber(secondBiggestNumberArray);
 
-            Console.WriteLine(secondLargestNumberSeach);
+
+            // Bubble Sort
+
+            int[] bubbleSortResult = BubbleSort(secondBiggestNumberArray);
+
+            Console.WriteLine(bubbleSortResult.ToString());
         }
 
         static int BinarySearch(int [] arraySearch, int key)
@@ -104,6 +109,24 @@ namespace BinarySearch
             }
 
             return max2;
+        }
+
+        // Bubble sort
+        static int[] BubbleSort(int [] array)
+        {
+            for(int i = 1; i < array.Length; i++)
+            {
+                for(int j = array.Length - 1; j > 0; j--)
+                {
+                    if(array[j] < array[j - 1])
+                    {
+                        int temp = array[j-1];
+                        array[j - 1] = array[j];
+                        array[j] = temp;
+                    }
+                }
+            }
+            return array;
         }
     }
 }
