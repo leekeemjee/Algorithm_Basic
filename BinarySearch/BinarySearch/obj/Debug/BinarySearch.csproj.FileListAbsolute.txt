@@ -1,0 +1,7 @@
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe.config
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\bin\Debug\BinarySearch.pdb
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\obj\Debug\BinarySearch.csprojResolveAssemblyReference.cache
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\obj\Debug\BinarySearch.csproj.CoreCompileInputs.cache
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\obj\Debug\BinarySearch.exe
+D:\CODING\CodingRefresh\BinarySearch\BinarySearch\obj\Debug\BinarySearch.pdb
